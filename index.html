@@ -12,6 +12,7 @@
       padding: 50px;
       background-color: #FFF;
     }
+
     h1 {
       font-family: sans-serif;
       font-size: 72;
@@ -29,6 +30,7 @@
     <script type="text/babel">
 
       class SimpleCounter extends React.Component {
+        
         constructor(props) {
           super(props);
       
@@ -55,7 +57,7 @@
       }
       
      componentDidUpdate(prevProps, prevState) {
-        console.log("Component updated from: " + prevState.count);
+        console.log("Component updated to: " + prevState.count);
 
         if (this.state.count == 70) {
       ReactDOM.unmountComponentAtNode(document.querySelector("#container"));
@@ -64,12 +66,11 @@
       }
 
     componentWillUnmount() {
-    console.log("Component is about to be unmounted!");
+    console.log("Component has been unmounted!");
 
          clearInterval(this.timer);
       }
 
-    
       render() {
         console.log("SimpleCounter render call!");
         return (
@@ -77,7 +78,6 @@
         );
       }
     }
-    
         ReactDOM.render(
       <div>
         <SimpleCounter/>
