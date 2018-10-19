@@ -1,3 +1,3 @@
 # React-Component-lifecycle
-Demo code for my talk at react summit 2018 on optimizing react component life cycle methods
-<br>Find link in the Websites bar above
+Demo code for my talk at react summit 2018 on Optimizing React Component Life Cycle Methods
+<br>Find Link in the Websites Bar Above
