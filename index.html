@@ -27,6 +27,7 @@
     <div id="container"></div>
     
     <script type="text/babel">
+
       class SimpleCounter extends React.Component {
         constructor(props) {
           super(props);
@@ -56,7 +57,7 @@
      componentDidUpdate(prevProps, prevState) {
         console.log("Component updated from: " + prevState.count);
 
-        if (this.state.count == 50) {
+        if (this.state.count == 70) {
       ReactDOM.unmountComponentAtNode(document.querySelector("#container"));
             }
         
