@@ -1,4 +1,4 @@
-![COVER ART](https://pbs.twimg.com/media/Dpxr4ZsWsAEMF5u.jpg:large)
+![COVER ART](https://pbs.twimg.com/media/Dpxr4ZsWsAEMF5u.jpg)
 
 # React-Component-lifecycle
 Demo code for my talk at react summit 2018 on Optimizing React Component Life Cycle Methods
